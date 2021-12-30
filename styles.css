@@ -87,8 +87,8 @@ main {
 }
 
 button {
-  width: 4rem;
-  height: 4rem;
+  width: 50rem;
+  height: 50rem;
   border-radius: 50%;
   border: 0;
   background-color: #f7f6f5;
@@ -98,8 +98,8 @@ button {
   cursor: pointer;
   transition: background-color 0.4s ease;
   z-index: 2;
-  opacity: 40%;
-  margin: 20px
+  opacity: 0%;
+  margin: -25rem
 }
 
 button:hover {
