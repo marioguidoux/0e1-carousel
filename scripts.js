@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     currCard.classList.remove("view");
     nextCard.classList.add("view");
 
-  }, 8000)
+  },10000)
 
   prev.addEventListener("click", function () {
     const currCard = document.querySelector(".card.view");
@@ -66,7 +66,7 @@ fetchUsers().then(datas => {
     img.setAttribute("alt", data.title);
     url.textContent = data.title;
     url.setAttribute("href", data.url);
-    url.setAttribute("target", "_parent");
+    url.setAttribute("target", "_top");
     card.classList.add("card");
     cardImage.classList.add("card-image");
     if (data.title === datas[0].title) {
