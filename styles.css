@@ -55,6 +55,7 @@ body {
   background-color: var(--clr-bg);
   color: var(--clr-text);
   width: 100%;
+  height: 100%;
   margin: 0;
   position: fixed;
 }
@@ -80,7 +81,7 @@ button.btn {
 }
 
 main {
-  height: 500px;
+  height: 100%;
   display: grid;
   grid-template-columns: 0% 100% 0%;
   align-items: center;
@@ -126,9 +127,10 @@ button#next {
 
 .card {
   width: 100%;
+  height: auto;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 0%;
   transform: translate(-50%, -50%);
   background-color: var(--clr-bg);
   transition: all 5s ease;
@@ -142,7 +144,6 @@ button#next {
 }
 
 .card-image {
-  height: 500px;
   width: 110%;
   overflow: hidden;
   transition: transform 0.3s ease;
