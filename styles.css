@@ -140,17 +140,15 @@ button#next {
 .card * {
   width: auto;
   height: 100%;
+  min-width: 100%;
 }
 
 .card-image {
+
   width: 110%;
-  overflow: hidden;
+  overflow: visible;
   transition: transform 0.3s ease;
   animation: backgroundScroll 40s linear infinite;
-}
-
-.card-image::-webkit-scrollbar {
-  width: 0;
 }
 
 @keyframes backgroundScroll {
@@ -169,7 +167,8 @@ button#next {
 .card a {
   display: block;
   font-weight: 100;
-  text-align: center;
+  left: 10%;
+  align: center;
   font-size: var(--base-font);
   color: var(--clr-btn);
   position: absolute;
