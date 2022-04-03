@@ -55,7 +55,7 @@ body {
   background-color: var(--clr-bg);
   color: var(--clr-text);
   width: 110%;
-  height: 110%;
+  height: 100%;
   margin: 0;
   position: fixed;
 }
