@@ -82,7 +82,7 @@ button.btn {
 
 main {
   height: 100%;
-  width: 110%
+  width: 110%;
   display: grid;
   grid-template-columns: 0% 100% 0%;
   align-items: top;
